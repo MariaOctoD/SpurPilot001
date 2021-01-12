@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.46.23620.0%0D%0A%0D%0A00:00:00.150%20--%3E%2000:00:04.624%0D%0ALet%E2%80%99s%20look%20in%20more%20detail%20at%20the%20results%20we%20are%20talking%20about%20in%20%E2%80%9Cresults-based%20management.%E2%80%9D%0D%0A%0D%0A"}')

@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.46.23620.0%0D%0A%0D%0A00:00:00.150%20--%3E%2000:00:03.135%0D%0AHere%E2%80%99s%20another%20way%20to%20think%20about%20the%20connections%20in%20a%20logic%20model.%0D%0A%0D%0A"}')
