@@ -2,80 +2,77 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6R5Wg07k2hT":
+      case "5uggY1XZjec":
         Script1();
         break;
-      case "6i6tz569fww":
+      case "5wOtujPtKN4":
         Script2();
         break;
-      case "5XKWJzSzuN4":
+      case "5ZzAbop17GW":
         Script3();
         break;
-      case "6ibL1LuZGWo":
+      case "64Hvai05TIu":
         Script4();
         break;
-      case "618LEy6v4bb":
+      case "6mDIXNIIMkz":
         Script5();
         break;
-      case "6Dbmv0snda0":
+      case "5bHhCCnoSnn":
         Script6();
         break;
-      case "67uTY5rJsnK":
+      case "5gSc0b24hUg":
         Script7();
         break;
-      case "6lFhfgPSLMQ":
+      case "6RzjlrpKvCy":
         Script8();
         break;
-      case "5vMtga4bCub":
+      case "67FAnAVkt4z":
         Script9();
         break;
-      case "64Dt4U8rXuI":
+      case "6cERWMz7OHu":
         Script10();
         break;
-      case "601VEO0QgLS":
+      case "5bdROlfmger":
         Script11();
         break;
-      case "6JKcjcPyqIp":
+      case "6dTes5I6zZI":
         Script12();
         break;
-      case "6Rsd0BYr2wI":
+      case "6Ji0zRabDUz":
         Script13();
         break;
-      case "5nuqQoIKvgd":
+      case "60hN3GeLtij":
         Script14();
         break;
-      case "5d3b02XZ4Tw":
+      case "5vJuHwh2FvD":
         Script15();
         break;
-      case "5h9Cr7dJ5qm":
+      case "5Y3USNofjp6":
         Script16();
         break;
-      case "6Wgsq9m0uD8":
+      case "6d5mFffqKHi":
         Script17();
         break;
-      case "6a6n2nMOHkD":
+      case "5yBLK40Oac1":
         Script18();
         break;
-      case "6FbJWzLZ7Pp":
+      case "5d15VrEwgwM":
         Script19();
         break;
-      case "6I2bcvcS90U":
+      case "65Y4s9vcrbz":
         Script20();
         break;
-      case "6IxiE3OXC7N":
+      case "6damNgP5BRr":
         Script21();
         break;
-      case "6PES2f9xN4F":
+      case "64IjFnEp390":
         Script22();
         break;
-      case "6Arqk3OChWx":
+      case "63Al1Eyqe80":
         Script23();
         break;
-      case "6Ws8Q5quhmp":
+      case "6BwZICYp0kN":
         Script24();
-        break;
-      case "6nHscyJ2eX4":
-        Script25();
         break;
   }
 }
@@ -93,6 +90,7 @@ type: "POST",
 
 data: {"FirstName": player.GetVar("FirstName")
 , "LastName": player.GetVar("LastName")
+, "Language": player.GetVar("Language")
 , "Email": player.GetVar("Email")
 
 },
@@ -468,8 +466,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "English": player.GetVar("English")
-, "French": player.GetVar("French")
+, "Accessibility": player.GetVar("Accessibility")
 },
 
 
@@ -503,7 +500,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "Accessibility": player.GetVar("Accessibility")
+, "FirstTime": player.GetVar("FirstTime")
 },
 
 
@@ -537,7 +534,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "FirstTime": player.GetVar("FirstTime")
+, "Consent": player.GetVar("Consent")
 },
 
 
@@ -571,7 +568,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "Consent": player.GetVar("Consent")
+, "QuestTotal": player.GetVar("QuestTotal")
 },
 
 
@@ -629,36 +626,7 @@ return false;
 
 function Script17()
 {
-  var player = GetPlayer();
-
-$.ajax({
-
-url:
-"https://script.google.com/macros/s/AKfycbyHHoQPqxMzr8lIqxxWxTVY_Zj4oQefqOL0YdAXaxLJf2kpqB03mv8joA/exec",
-
-type: "POST",
-
-data: {"Email": player.GetVar("Email")
-, "QuestTotal": player.GetVar("QuestTotal")
-},
-
-
-success: function(data)
-
-{
-
-console.log(data);
-
-},
-
-error: function(err) {
-console.log('Error:', err);
-}
-
-});
-
-return false;
-
+  window.print();
 }
 
 function Script18()
@@ -687,11 +655,6 @@ function Script22()
 }
 
 function Script23()
-{
-  window.print();
-}
-
-function Script24()
 {
   var player = GetPlayer();
 
@@ -725,7 +688,7 @@ return false;
 
 }
 
-function Script25()
+function Script24()
 {
   var player = GetPlayer();
 
