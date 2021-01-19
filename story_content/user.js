@@ -2,77 +2,74 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5uggY1XZjec":
+      case "5nkX9WMT0Fb":
         Script1();
         break;
-      case "5wOtujPtKN4":
+      case "5VYUfjbKgRr":
         Script2();
         break;
-      case "5ZzAbop17GW":
+      case "6kFo6msfria":
         Script3();
         break;
-      case "64Hvai05TIu":
+      case "5oDLnp4K75J":
         Script4();
         break;
-      case "6mDIXNIIMkz":
+      case "6LV0EAXxHMW":
         Script5();
         break;
-      case "5bHhCCnoSnn":
+      case "5oCbWHb0btJ":
         Script6();
         break;
-      case "5gSc0b24hUg":
+      case "6PRadDfaFKh":
         Script7();
         break;
-      case "6RzjlrpKvCy":
+      case "5nbmPLumMzg":
         Script8();
         break;
-      case "67FAnAVkt4z":
+      case "68XGzsArYzo":
         Script9();
         break;
-      case "6cERWMz7OHu":
+      case "6dvwLWGmHou":
         Script10();
         break;
-      case "5bdROlfmger":
+      case "5VeQS7uyyKf":
         Script11();
         break;
-      case "6dTes5I6zZI":
+      case "5ZCLj9dwTjE":
         Script12();
         break;
-      case "6Ji0zRabDUz":
+      case "5Xn7JMsw8gv":
         Script13();
         break;
-      case "60hN3GeLtij":
+      case "68P0wyJdIig":
         Script14();
         break;
-      case "5vJuHwh2FvD":
+      case "6RjPTMQepEO":
         Script15();
         break;
-      case "5Y3USNofjp6":
+      case "66PRBewgIRr":
         Script16();
         break;
-      case "6d5mFffqKHi":
+      case "6Xr4sLw4BkX":
         Script17();
         break;
-      case "5yBLK40Oac1":
+      case "6ZeC8VwLKtB":
         Script18();
         break;
-      case "5d15VrEwgwM":
+      case "6TBdBuOsyPc":
         Script19();
         break;
-      case "65Y4s9vcrbz":
+      case "67Jr4pzBgsn":
         Script20();
         break;
-      case "6damNgP5BRr":
+      case "6bFG9fZv5Dy":
         Script21();
         break;
-      case "64IjFnEp390":
+      case "5jyNFX6bri0":
         Script22();
         break;
-      case "63Al1Eyqe80":
+      case "5xdIpklMLA7":
         Script23();
-        break;
-      case "6BwZICYp0kN":
-        Script24();
         break;
   }
 }
@@ -296,7 +293,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "OrganizationSize": player.GetVar("OrganizationSize")
+, "OverseasExpenditures": player.GetVar("OverseasExpenditures")
 },
 
 
@@ -330,7 +327,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "OverseasExpenditures": player.GetVar("OverseasExpenditures")
+, "GACeligibility": player.GetVar("GACeligibility")
 },
 
 
@@ -364,7 +361,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "GACeligibility": player.GetVar("GACeligibility")
+, "Gender": player.GetVar("Gender")
 },
 
 
@@ -398,7 +395,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "Gender": player.GetVar("Gender")
+, "Age": player.GetVar("Age")
 },
 
 
@@ -432,7 +429,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "Age": player.GetVar("Age")
+, "Accessibility": player.GetVar("Accessibility")
 },
 
 
@@ -466,7 +463,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "Accessibility": player.GetVar("Accessibility")
+, "FirstTime": player.GetVar("FirstTime")
 },
 
 
@@ -500,7 +497,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "FirstTime": player.GetVar("FirstTime")
+, "Consent": player.GetVar("Consent")
 },
 
 
@@ -534,7 +531,7 @@ url:
 type: "POST",
 
 data: {"Email": player.GetVar("Email")
-, "Consent": player.GetVar("Consent")
+, "QuestTotal": player.GetVar("QuestTotal")
 },
 
 
@@ -592,36 +589,7 @@ return false;
 
 function Script16()
 {
-  var player = GetPlayer();
-
-$.ajax({
-
-url:
-"https://script.google.com/macros/s/AKfycbyHHoQPqxMzr8lIqxxWxTVY_Zj4oQefqOL0YdAXaxLJf2kpqB03mv8joA/exec",
-
-type: "POST",
-
-data: {"Email": player.GetVar("Email")
-, "QuestTotal": player.GetVar("QuestTotal")
-},
-
-
-success: function(data)
-
-{
-
-console.log(data);
-
-},
-
-error: function(err) {
-console.log('Error:', err);
-}
-
-});
-
-return false;
-
+  window.print();
 }
 
 function Script17()
@@ -650,11 +618,6 @@ function Script21()
 }
 
 function Script22()
-{
-  window.print();
-}
-
-function Script23()
 {
   var player = GetPlayer();
 
@@ -688,7 +651,7 @@ return false;
 
 }
 
-function Script24()
+function Script23()
 {
   var player = GetPlayer();
 
