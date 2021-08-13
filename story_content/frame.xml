@@ -1606,7 +1606,7 @@
             <slidelink slideid="_player.6VSuH1Z1HNf.69b85HUB0HI" displaytext="Objectifs de la quête" expand="false" type="slide" />
             <slidelink slideid="_player.6VSuH1Z1HNf.6fty1bQEpky" displaytext="Que sont les résultats?" expand="false" type="slide" />
             <slidelink slideid="_player.6VSuH1Z1HNf.5bdrQlMNU7E" displaytext="Les résultats sont SMART " expand="false" type="slide" />
-            <slidelink slideid="_player.5o1m0uFzM1w" displaytext="Les différents niveaux de résultats" expand="false" type="slide">
+            <slidelink slideid="_player.6jPQ9cPP7F6" displaytext="Les différents niveaux de résultats" expand="false" type="slide">
               <links>
                 <slidelink slideid="_player.6VSuH1Z1HNf.649xIkojuKe" displaytext="Impact, effets et extrants" expand="false" type="slide" />
                 <slidelink slideid="_player.6VSuH1Z1HNf.6RdgA56HDAM" displaytext="Niveaux d&amp;apos;effets additionnels : les effets immédiats et intermédiaires" expand="false" type="slide" />
@@ -1615,7 +1615,7 @@
                 <slidelink slideid="_player.6VSuH1Z1HNf.5kjcXrFceWF" displaytext="S&amp;apos;entraîner à identifier les énoncés d&amp;apos;impact, d&amp;apos;effet et d&amp;apos;extrant" expand="false" type="slide" />
               </links>
             </slidelink>
-            <slidelink slideid="_player.6EV4AdKRBMF" displaytext="Le modèle logique" expand="false" type="slide">
+            <slidelink slideid="_player.6eXSHyAkLoL" displaytext="Le modèle logique" expand="false" type="slide">
               <links>
                 <slidelink slideid="_player.6VSuH1Z1HNf.6CR35JtznCW" displaytext="Le modèle logique" expand="false" type="slide" />
                 <slidelink slideid="_player.6VSuH1Z1HNf.5hYS5lDnwaU" displaytext="Comment construire un modèle logique" expand="false" type="slide" />
@@ -1642,7 +1642,7 @@
                 <slidelink slideid="_player.5v2HzSgjNf6.6DcA8234fTN" displaytext="Les indicateurs de référence" expand="false" type="slide" />
                 <slidelink slideid="_player.5v2HzSgjNf6.6DXggkBwXTv" displaytext="La ventilation des indicateurs" expand="false" type="slide" />
                 <slidelink slideid="_player.5v2HzSgjNf6.60XerIWM8Xy" displaytext="Les indicateurs pour chaque niveau de résultats" expand="false" type="slide" />
-                <slidelink slideid="_player.5VnCp37MhRC" displaytext="Élaboration des indicateurs" expand="false" type="slide">
+                <slidelink slideid="_player.5vQba9Wq9pz" displaytext="Élaboration des indicateurs" expand="false" type="slide">
                   <links>
                     <slidelink slideid="_player.5v2HzSgjNf6.67iK3snG1JY" displaytext="Élaboration des indicateurs : l’anatomie d’une indicateur" expand="false" type="slide" />
                     <slidelink slideid="_player.5v2HzSgjNf6.6GRvLSfaqiV" displaytext="Élaboration des indicateurs : les étapes" expand="false" type="slide" />
@@ -1710,7 +1710,6 @@
             <slidelink slideid="_player.6kk6Th8FANp.6hdRtV3qY24" displaytext="Transition" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6asOoJvXyYX.5wck9Qctdus" displaytext="Évaluation finale" expand="false" type="slide" />
       </links>
     </outline>
   </nav_data>
